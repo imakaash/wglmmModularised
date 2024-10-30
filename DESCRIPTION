@@ -1,0 +1,16 @@
+Package: wglmmModularised
+Type: Package
+Title: Modularised Weighted Generalized Linear Mixed Models
+Version: 1.0
+Date: 2024-01-10
+Authors@R: c(person(given = "Akash", family = "Kumar Yadav", role = c("aut", "cre"), email = "s4akyada@uni-trier.de"))
+Maintainer: Jan Pablo Burgard <burgardj@uni-trier.de>
+Description: Estimates modularised generalized linear mixed models and linear mixed models with transformed dependent variable under a flexible random effects structure and -- if desired -- with survey weights.
+License: GPL (>= 3)
+Imports: Rcpp (>= 1.0.2), lme4, Matrix
+LinkingTo: Rcpp, RcppArmadillo
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+NeedsCompilation: yes
+Packaged: 2024-01-31 11:16:46 UTC; s4akyada
