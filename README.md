@@ -1,11 +1,23 @@
+
 # wglmmModularised
-Modularised Survey-weighted Generalized Linear Mixed Models Allowing for Crossed Effects and Unit Specific Survey Weights
 
-# Installation
+## Modularised Survey-weighted Generalized Linear Mixed Models Allowing for Crossed Effects and Unit Specific Survey Weights
 
-You can install this package using the remotes library in the following way (Access to the repository required, since it is private and hosted on "gitlab.uni-trier.de"):
+This R package as part of my master thesis submission at University of Trier for sose24 implements a modularised approach to fitting survey-weighted Generalized Linear Mixed Models (GLMMs) that can handle crossed effects and unit-specific survey weights. It provides a flexible framework for analyzing complex survey data with multilevel structures.
 
-remotes::install_gitlab("s4akyada/wglmmModularised")
+## Key Features:
 
-Note that you need your system to be set up for c++ compilation.
-See https://cran.r-project.org/bin/windows/Rtools/ for Windows. For Linux and Macos search for advice on your specific distribution.
+-   Supports various types of GLMMs
+-   Handles crossed random effects
+-   Incorporates unit-specific survey weights
+-   Modular design for flexibility and extensibility
+
+## Installation
+
+To install this package, you need access to the private GitLab repository. Use the following R code:
+
+r
+
+`remotes::install_gitlab("s4akyada/wglmmModularised")` 
+
+**Note:** Your system must be set up for C++ compilation. For Windows, visit [Rtools](https://cran.r-project.org/bin/windows/Rtools/). For Linux and macOS, consult your specific distribution's documentation.This package is designed to provide researchers and data scientists with a powerful tool for analyzing complex survey data, offering advanced modeling capabilities while accounting for survey design features.
